@@ -29,6 +29,7 @@ p {
   margin: 0px;
   background-color: black;
   color: white;
+  padding: 15px;
 }
 
 #navSection {
@@ -36,11 +37,13 @@ p {
   width: 50%;
   align-items: center;
 margin-left: auto;
+justify-content: end;
 }
 
 #navSection p {
   cursor: pointer;
   text-decoration: underline;
+  font-family: aktiv-grotesk-extended;
 }
 
 #navSection :hover {
@@ -50,5 +53,29 @@ margin-left: auto;
 #navBar h1 {
   width: 25%;
   font-weight: 500;
+  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+#hero-banner {
+  margin: 0px 5%;
+  display: grid;
+  height: 40vh;
+  grid-template-columns: 100%;
+  grid-template-areas: "featuredImage";
+}
+
+
+#featuredImage {
+  grid-area: featuredImage;
+  background: rgb(0,9,36);
+  background: linear-gradient(90deg, rgba(0,9,36,1) 0%, rgba(126,68,68,1) 46%, rgba(59,84,13,1) 100%);
+}
+
+
+#headline {
+background-color: black;
+color: white;
+position: absolute;
+border-radius: 10px;
+padding: 10px
+}
