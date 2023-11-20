@@ -27,19 +27,24 @@ p {
 #navBar {
   display: flex;
   margin: 0px;
+  background-color: black;
+  color: white;
 }
 
-#navigationBar {
+#navSection {
   display: flex;
   width: 50%;
   align-items: center;
-justify-content: space-evenly;
 margin-left: auto;
 }
 
-#navigationBar p {
+#navSection p {
   cursor: pointer;
   text-decoration: underline;
+}
+
+#navSection :hover {
+  text-decoration: none;
 }
 
 #navBar h1 {
