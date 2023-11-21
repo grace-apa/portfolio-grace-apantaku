@@ -46,6 +46,7 @@ justify-content: flex-start;
 background-color: rgba(255, 255, 255, 0.2);
 padding: 5px 30px;
 font-weight: 500;
+border-radius: 30px;
 }
 
 .links {
@@ -118,5 +119,15 @@ padding: 6px;
 
 #about {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 20% 80%;
+}
+
+.me {
+  text-align: right;
+}
+
+.paragraph-container {
+  text-align: left;
+  padding-bottom: 20px;
+
 }
