@@ -22,7 +22,12 @@ p {
   margin: 0;
 }
 
-/* Navigation CSS */
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+ }
+
+/* <!-- Navigation section --> */
 
 #header {
   display: flex;
@@ -54,7 +59,7 @@ border-radius: 30px;
 }
 
 nav {
-  width: 100vw;
+  width: 99vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -117,31 +122,23 @@ padding: 6px;
   color: white;
 }
 
+/* About me section  */
+
 .aboutMe {
   display: flex;
   justify-content: space-between;
 }
+
+.aboutmeLeft {
+  border-right: 3px solid black;
+  padding-right: 20px;
+  }
 
 .me {
   text-align: right;
   font-size: 30px;
   color: #3C530D;
 } 
-
-.aboutmeLeft {
-border-right: 3px solid black;
-padding-right: 20px;
-}
-
-.workLeft {
-border-right: 3px solid black;
-padding-right: 20px;
-}
-
-.working {
-  text-align: right;
-  font-size: 30px;
-}
 
 .aboutmeParagraph {
   text-align: left;
@@ -151,9 +148,22 @@ padding-right: 20px;
   width: 80%;
 }
 
-.main {
- max-width: 900px;
- margin: 0 auto;
+/* Work Section */
+
+.work {
+  display: flex;
+  justify-content: space-between;
+}
+
+.workLeft {
+border-right: 3px solid black;
+padding-right: 30px;
+}
+
+.working {
+  text-align: right;
+  font-size: 30px;
+  color: #3C530D;
 }
 
 
