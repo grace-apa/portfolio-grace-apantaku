@@ -166,6 +166,51 @@ padding-right: 30px;
   color: #3C530D;
 }
 
+/* portfolio container */
+
+.imagesSection {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-areas:
+  "music music"
+  "fashion food"
+  "beauty travel"
+  ;
+}
+
+#music {
+  grid-area: music;
+  background-image: url("https://online.berklee.edu/takenote/wp-content/uploads/2023/07/AI_music_article_image_2023.jpg");
+}
+
+#fashion {
+  grid-area: fashion;
+  background-image: url("https://media.voguebusiness.com/photos/64c90bafb340082dbcb8e4d7/16:9/w_2000,h_1125,c_limit/HYPERREALISM-voguebus-story.jpg");
+}
+
+#food {
+  grid-area: food;
+  background-image: url("https://balibuddies.com/wp-content/uploads/2023/01/GrabFood-by-Grab-on-the-phone.jpg");
+}
+
+#beauty {
+  grid-area: beauty;
+  background-image: url("https://hellobeautiful.com/wp-content/uploads/sites/50/2023/07/16902421701635.jpg");
+}
+
+#travel {
+  grid-area: travel;
+  background-image: url("https://techliance.com/images/group-travel-videos.jpg");
+}
+
+.imageSectionArea {
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+margin: 5px;
+}
 
 @media only screen and (max-width: 950px) {
   .main {
