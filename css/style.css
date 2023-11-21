@@ -176,7 +176,7 @@ padding-right: 30px;
   grid-template-areas:
   "music music"
   "fashion food"
-  "beauty travel"
+  "beauty travel" 
   ;
 }
 
@@ -220,6 +220,22 @@ align-content: end;
   padding: 15px;
   color: white;
   font-size: 14px;
+}
+
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactMe {
+  border-right: 3px solid black;
+  padding-right: 16px;
+  }
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 950px) {
