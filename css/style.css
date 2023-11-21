@@ -117,17 +117,48 @@ padding: 6px;
   color: white;
 }
 
-#about {
-  display: grid;
-  grid-template-columns: 20% 80%;
+.aboutMe {
+  display: flex;
+  justify-content: space-between;
 }
 
 .me {
   text-align: right;
+  font-size: 30px;
+  color: #3C530D;
+} 
+
+.aboutmeLeft {
+border-right: 3px solid black;
+padding-right: 20px;
 }
 
-.paragraph-container {
+.workLeft {
+border-right: 3px solid black;
+padding-right: 20px;
+}
+
+.working {
+  text-align: right;
+  font-size: 30px;
+}
+
+.aboutmeParagraph {
   text-align: left;
   padding-bottom: 20px;
+  font-family: "Work Sans", "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  width: 80%;
+}
 
+.main {
+ max-width: 900px;
+ margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 950px) {
+  .main {
+    max-width: 700px;
+  }
 }
