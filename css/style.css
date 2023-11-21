@@ -210,6 +210,16 @@ background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 margin: 5px;
+cursor: pointer;
+display: grid;
+align-content: end;
+}
+
+.heading {
+  background-color: rgba(0,0,0,0.5);
+  padding: 15px;
+  color: white;
+  font-size: 14px;
 }
 
 @media only screen and (max-width: 950px) {
