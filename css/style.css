@@ -43,6 +43,9 @@ justify-content: space-between;
 .name {
   display: flex;
 justify-content: flex-start;
+background-color: rgba(255, 255, 255, 0.2);
+padding: 5px 30px;
+font-weight: 500;
 }
 
 .links {
@@ -50,8 +53,10 @@ justify-content: flex-start;
 }
 
 nav {
+  width: 100vw;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 nav ul li {
@@ -83,12 +88,6 @@ nav ul li a:hover::after {
 width: 100%;
 }
 
- h1 {
-  background-color: rgba(255, 255, 255, 0.2);
-  padding: 5px 30px;
-  font-weight: 500;
-}
-
 #hero-banner {
   display: grid;
   height: 40vh;
@@ -105,14 +104,19 @@ width: 100%;
 
 
 #headline {
-background-color: rgba(255, 255, 255, 0.3);
+background-color: rgba(255, 255, 255, 0.2);
 color: black;
 position: absolute;
-top: 38%;
+top: 42%;
 right: 1%;
-padding: 5px;
+padding: 6px;
 }
 
-.aboutMe, p {
-  display: inline-block;
+#headline :hover {
+  color: white;
+}
+
+#about {
+  display: grid;
+  grid-template-columns: 40% 60%;
 }
