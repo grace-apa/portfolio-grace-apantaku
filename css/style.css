@@ -20,6 +20,7 @@ h6 {
 
 h6 {
 font-weight: 100;
+font-size: 10px;
 }
 
 p {
@@ -40,26 +41,23 @@ p {
   margin: 0;
   background-color: black;
   color: white;
-  padding: 5px;
+  padding: 1px;
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
   
-.container {
+/* .container {
 justify-content: space-around;
 justify-content: space-between;
-}
+} */
 
-.name {
-  display: flex;
+.fullName {
+display: flex;
 justify-content: flex-start;
 background-color: rgba(255, 255, 255, 0.2);
-padding: 4px 30px;
+padding: 4px 35px;
+padding-right: 10px;
 font-weight: 500;
-border-radius: 30px;
-}
-
-.links {
-  justify-content: flex-end;
+/* border-radius: 30px; */
 }
 
 nav {
@@ -98,6 +96,12 @@ nav ul li a:hover::after {
 width: 100%;
 }
 
+.navLinks {
+  justify-content: flex-end;
+}
+
+/* <!-- Hero Banner section --> */
+
 #hero-banner {
   display: grid;
   height: 40vh;
@@ -105,31 +109,29 @@ width: 100%;
   grid-template-areas: "featuredImage";
 }
 
-
 #featuredImage {
   grid-area: featuredImage;
   background: rgb(0,9,36);
   background: linear-gradient(90deg, rgba(0,9,36,1) 0%, rgba(126,68,68,1) 46%, rgba(59,84,13,1) 100%);
 }
 
-
-#headline {
+#subtitle {
 background-color: rgba(255, 255, 255, 0.2);
 color: black;
 position: absolute;
-top: 44%;
+top: 45%;
 right: 1%;
 padding: 5px 22px;
 border-radius: 30px; 
 }
 
-#headline :hover {
+#subtitle :hover {
   color: white;
 }
 
-/* About me section  */
+/* <!-- About Me section --> */
 
-.aboutMe {
+.aboutme-container {
   display: flex;
   justify-content: space-between;
 }
@@ -153,7 +155,7 @@ border-radius: 30px;
   width: 80%;
 }
 
-/* Work Section */
+/* <!-- portfolio work container--> */
 
 .work {
   display: flex;
@@ -165,13 +167,13 @@ border-right: 3px solid black;
 padding-right: 30px;
 }
 
-.working {
+.workTitle {
   text-align: right;
   font-size: 30px;
   color: #3C530D;
 }
 
-/* portfolio container */
+/* portfolio image container */
 
 .imagesSection {
   display: grid;
@@ -233,6 +235,8 @@ align-content: end;
   width: 45%;
 }
 
+/* <!-- contact section --> */
+
 .contact {
   display: flex;
   justify-content: space-between;
@@ -240,9 +244,9 @@ align-content: end;
 
 .contactMe {
   border-right: 3px solid black;
-  padding-right: 16px;
   color: #3C530D;
   text-align: right;
+  padding-right: 16px;
   }
 
 .info {
