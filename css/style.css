@@ -169,9 +169,13 @@ padding-right: 30px;
 /* portfolio container */
 
 .imagesSection {
-  margin: 0px 5%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  gap: 1.4rem;
+  /* margin: 0px 5%; */
+  margin-inline: auto;
+  width: min(95%, 70rem);
+padding-left: 30px;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 300px 300px 300px;
   grid-template-areas:
   "music music"
