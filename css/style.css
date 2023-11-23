@@ -270,18 +270,57 @@ border: 3px solid black;
 border-bottom: 3px solid;
 }
 
+
+@media only screen and (max-width: 1440px) {
+
+  #subtitle {
+    position: absolute;
+    top: 43%;
+    }
+
+    .section-pic {
+      width: 320px;
+      height: 325px;
+      margin-top: 70px;
+      margin-left: 42px;
+    }
+  }
+
 @media only screen and (max-width: 1024px) {
   .main {
-    max-width: 600px;
+    max-width: 800px;
   }
 
   .section-pic {
     width: 268px;
     height: 275px;
-    border-radius: 50%;
-    border: 5px solid white;
-    margin-top: 37px;
+    margin-top: 40px;
     margin-left: 40px;
-  padding: 10px;
 }
+
+.aboutmeParagraph {
+  padding-bottom: 20px;
+  width: 78%;
+}
+
+.info {
+justify-content: space-around;
+width: 75vw;
+} 
+}
+
+
+@media only screen and (max-width: 768px) {
+ 
+  /* .main {
+    max-width: 600px;
+  } */
+
+  .section-pic { 
+    width: 225px;
+    height: 230px;
+    margin-top: 18px;
+    margin-left: 30px;
+}
+
 }
