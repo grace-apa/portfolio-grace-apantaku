@@ -131,7 +131,7 @@ border-radius: 30px;
 
 /* <!-- About Me section --> */
 
-.aboutme-container {
+#aboutme-container {
   display: flex;
   justify-content: space-between;
 }
@@ -157,7 +157,7 @@ border-radius: 30px;
 
 /* <!-- portfolio work container--> */
 
-.work {
+#work {
   display: flex;
   justify-content: space-between;
 }
@@ -223,6 +223,7 @@ margin: 5px;
 cursor: pointer;
 display: grid;
 align-content: end;
+border: 3px solid black;
 }
 
 .heading {
@@ -237,7 +238,7 @@ align-content: end;
 
 /* <!-- contact section --> */
 
-.contact {
+#contact {
   display: flex;
   justify-content: space-between;
 }
