@@ -23,10 +23,6 @@ font-weight: 100;
 font-size: 10px;
 }
 
-p {
-  margin: 0;
-}
-
 .main {
   max-width: 900px;
   margin: 0 auto;
@@ -117,12 +113,12 @@ width: 100%;
 
 
 .section-pic {
-  width: 275px;
-  height: 278px;
+  width: 268px;
+  height: 275px;
   border-radius: 50%;
   border: 5px solid white;
-  margin-top: 32px;
-  margin-left: 20px;
+  margin-top: 13px;
+  margin-left: 25px;
 padding: 10px;
 }
 
@@ -274,9 +270,18 @@ border: 3px solid black;
 border-bottom: 3px solid;
 }
 
-
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1024px) {
   .main {
-    max-width: 700px;
+    max-width: 600px;
   }
+
+  .section-pic {
+    width: 268px;
+    height: 275px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: 37px;
+    margin-left: 40px;
+  padding: 10px;
+}
 }
