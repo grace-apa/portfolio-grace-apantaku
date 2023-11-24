@@ -198,11 +198,7 @@ padding-left: 65px;
 
  #music {
   grid-area: music;
-/* background-image: url("https://online.berklee.edu/takenote/wp-content/uploads/2023/07/AI_music_article_image_2023.jpg"); */
 } 
-
-
-/* remove the two classes below along with experiment code */
 
 .imageLink {
   position: relative;
@@ -213,28 +209,63 @@ padding-left: 65px;
 max-width: 100%; 
 max-height: 100%;
 display: block;
+position: relative;
+top: 65px;
 } 
 
 
 #fashion {
   grid-area: fashion;
-  background-image: url("https://media.voguebusiness.com/photos/64c90bafb340082dbcb8e4d7/16:9/w_2000,h_1125,c_limit/HYPERREALISM-voguebus-story.jpg");
 }
+
+.fashionImage {
+  max-width: 150%; 
+  max-height: 100%;
+  display: block;
+  position: relative;
+  top: 0px;
+  right: 90px;
+  } 
 
 #food {
   grid-area: food;
-  background-image: url("https://balibuddies.com/wp-content/uploads/2023/01/GrabFood-by-Grab-on-the-phone.jpg");
 }
+
+.foodImage {
+  max-width: 150%; 
+  max-height: 100%;
+  display: block;
+  position: relative;
+  top: 0px;
+  right: 90px;
+  } 
+
 
 #beauty {
   grid-area: beauty;
-  background-image: url("https://hellobeautiful.com/wp-content/uploads/sites/50/2023/07/16902421701635.jpg");
 }
+
+.beautyImage {
+  max-width: 150%; 
+  max-height: 100%;
+  display: block;
+  position: relative;
+  top: 0px;
+  right: 90px;
+  } 
 
 #travel {
   grid-area: travel;
-  background-image: url("https://techliance.com/images/group-travel-videos.jpg");
 }
+
+.travelImage {
+  max-width: 150%; 
+  max-height: 100%;
+  display: block;
+  position: relative;
+  top: -15px;
+  right: 90px;
+  } 
 
 .imageSectionArea {
   display: grid; 
@@ -245,8 +276,8 @@ margin: 5px;
 cursor: pointer;
 align-content: end;
 border: 3px solid black;
-    overflow: hidden;  /*remove with experiment code if doesnt work */
-    position: relative; /*remove with experiment code if doesnt work */
+    overflow: hidden;
+    position: relative; 
 }
 
 .heading {
