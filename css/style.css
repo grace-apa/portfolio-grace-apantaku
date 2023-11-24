@@ -198,8 +198,23 @@ padding-left: 65px;
 
  #music {
   grid-area: music;
-background-image: url("https://online.berklee.edu/takenote/wp-content/uploads/2023/07/AI_music_article_image_2023.jpg");
+/* background-image: url("https://online.berklee.edu/takenote/wp-content/uploads/2023/07/AI_music_article_image_2023.jpg"); */
 } 
+
+
+/* remove the two classes below along with experiment code */
+
+.imageLink {
+  position: relative;
+  display: block;
+}
+
+.musicImage {
+max-width: 100%; 
+max-height: 100%;
+display: block;
+} 
+
 
 #fashion {
   grid-area: fashion;
@@ -222,7 +237,7 @@ background-image: url("https://online.berklee.edu/takenote/wp-content/uploads/20
 }
 
 .imageSectionArea {
-  display: grid;
+  display: grid; 
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -230,6 +245,8 @@ margin: 5px;
 cursor: pointer;
 align-content: end;
 border: 3px solid black;
+    overflow: hidden;  /*remove with experiment code if doesnt work */
+    position: relative; /*remove with experiment code if doesnt work */
 }
 
 .heading {
@@ -240,6 +257,8 @@ border: 3px solid black;
   position: relative;
   bottom: 20px;
   width: 45%;
+  z-index: 1;  /*remove with experiment code if doesnt work */
+  position: absolute;  /*remove with experiment code if doesnt work */
 }
 
 /* <!-- contact section --> */
