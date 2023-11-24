@@ -111,7 +111,6 @@ width: 100%;
   background: linear-gradient(90deg, rgba(0,9,36,1) 0%, rgba(126,68,68,1) 46%, rgba(59,84,13,1) 100%);
 }
 
-
 .section-pic {
   width: 268px;
   height: 275px;
@@ -197,9 +196,9 @@ padding-left: 65px;
   ;
 }
 
-#music {
+ #music {
   grid-area: music;
-  background-image: url("https://online.berklee.edu/takenote/wp-content/uploads/2023/07/AI_music_article_image_2023.jpg");
+background-image: url("https://online.berklee.edu/takenote/wp-content/uploads/2023/07/AI_music_article_image_2023.jpg");
 } 
 
 #fashion {
@@ -223,12 +222,12 @@ padding-left: 65px;
 }
 
 .imageSectionArea {
+  display: grid;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 margin: 5px;
 cursor: pointer;
-display: grid;
 align-content: end;
 border: 3px solid black;
 }
@@ -288,15 +287,24 @@ border-bottom: 3px solid;
 
 @media only screen and (max-width: 1024px) {
   .main {
-    max-width: 810px;
+    max-width: 620px;
+  }
+
+  #hero-banner {
+  display: grid;
+    height: 35vh;
   }
 
   .section-pic {
-    width: 268px;
-    height: 275px;
-    margin-top: 40px;
-    margin-left: 40px;
+    width: 230px;
+    height: 235px;
+    margin-top: 32px;
+    margin-left: 185px;
 }
+
+#subtitle {
+  top: 38%;
+  right: 18%;
 
 .aboutmeParagraph {
   padding-bottom: 20px;
@@ -308,7 +316,6 @@ justify-content: space-around;
 width: 75vw;
 } 
 }
-
 
 @media only screen and (max-width: 768px) {
 
@@ -336,5 +343,6 @@ display: flex;
 flex-wrap: wrap;
 font-size: 14px;
 padding-left: 26px;
+}
 }
 }
