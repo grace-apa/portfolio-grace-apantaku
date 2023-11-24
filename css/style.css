@@ -402,14 +402,6 @@ padding-left: 26px;
 right: 145px;
   } 
 
-/* .imagesSectionArea {
-  /* display: flex;
-align-items: center; */
-  /* object-fit: cover; */
-  /* position: absolute; */
-  /* top: 50px; */
-} */
-
 .info { 
 display: flex;
 flex-wrap: wrap;
@@ -420,6 +412,12 @@ padding-left: 26px;
 
 @media only screen and (max-width: 500px) {
 
+
+  html {
+    font-size: 9px;
+
+  }
+
   .container {
     font-size: 6px;
     display: flex;
@@ -428,10 +426,10 @@ padding-left: 26px;
     justify-content: flex-end;
       }
 
-  html {
-    font-size: 9px;
-
-  }
+      #subtitle {
+        top: 47%;
+left: 48%;
+        }
 
   .imagesSection {
     grid-template-columns: 1fr;
@@ -455,6 +453,28 @@ padding-right: 9%;
     padding-right: 19px;
     }
 
+    .musicImage {
+      max-width: 370%; 
+      max-height: 470%;
+      top: -5px;
+      right: 380px;
+      } 
+
+      .fashionImage {
+        object-fit: fill;
+        max-width: 340%; 
+        max-height: 380%;
+        top: -2px;
+      right: 380px;
+        } 
+
+        .foodImage {
+          max-width: 320%; 
+          max-height: 320%;
+          top: -30px;
+          right: 90px;
+          } 
+
     .me {
       padding-left: 9px;
       font-size: 13.5px;
@@ -463,6 +483,7 @@ padding-right: 9%;
     .workTitle {
       padding-left: 5px;
       font-size: 13.5px;
+
     }
 
     .contactMe {
