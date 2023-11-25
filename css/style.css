@@ -450,6 +450,13 @@ nav ul li a:hover::after {
     font-size: 8px;
   }
 
+  .fullName {
+    font-size: 13px;
+  }
+
+  .navLinks a {
+    font-size: 15px;
+  }
   .container {
     font-size: 6px;
     display: flex;
@@ -468,7 +475,7 @@ nav ul li a:hover::after {
 
   #subtitle {
     top: 40%;
-    left: 27%;
+    left: 28%;
     width: 45%;
     padding: 5px 25px;
   }
