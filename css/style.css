@@ -514,33 +514,40 @@ nav ul li a:hover::after {
     margin: 5px 0;
   }
 
+  /* .imageSectionArea .musicImage {
+    height: 200px;
+  } */
+
   .musicImage {
-    /* width: 680%; */
-    height: auto;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    /* right: 125%; */
     top: 0px;
   }
 
   .fashionImage {
-    height: auto;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     top: 0px;
-    right: 250px;
+    right: 0px;
   }
 
   .foodImage {
-    height: auto;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     top: 0px;
-    right: 350px;
+    right: 0px;
   }
 
   .beautyImage {
-    height: auto;
-    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    /* height: auto; */
+    object-fit: cover;
     top: 0px;
-    right: 75px;
+    right: 0px;
   }
 
   .me {
