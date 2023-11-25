@@ -5,7 +5,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
 }
 
@@ -19,14 +20,14 @@ h6 {
 }
 
 h6 {
-font-weight: 100;
-font-size: 10px;
+  font-weight: 100;
+  font-size: 10px;
 }
 
 .main {
   max-width: 900px;
   margin: 0 auto;
- }
+}
 
 /* <!-- Navigation section --> */
 
@@ -38,17 +39,17 @@ font-size: 10px;
   background-color: black;
   color: white;
   padding: 1px;
-  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
 .fullName {
-display: flex;
-justify-content: flex-start;
-background-color: rgba(255, 255, 255, 0.2);
-padding: 4px 35px;
-padding-right: 10px;
-font-weight: 500;
-/* border-radius: 30px; */
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 4px 35px;
+  padding-right: 10px;
+  font-weight: 500;
 }
 
 nav {
@@ -74,7 +75,7 @@ nav ul li a {
 }
 
 nav ul li a::after {
-  content: '';
+  content: "";
   width: 0;
   height: 3px;
   background: white;
@@ -84,7 +85,7 @@ nav ul li a::after {
 }
 
 nav ul li a:hover::after {
-width: 100%;
+  width: 100%;
 }
 
 .navLinks {
@@ -102,8 +103,13 @@ width: 100%;
 
 #featuredImage {
   grid-area: featuredImage;
-  background: rgb(0,9,36);
-  background: linear-gradient(90deg, rgba(0,9,36,1) 0%, rgba(126,68,68,1) 46%, rgba(59,84,13,1) 100%);
+  background: rgb(0, 9, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 9, 36, 1) 0%,
+    rgba(126, 68, 68, 1) 46%,
+    rgba(59, 84, 13, 1) 100%
+  );
 }
 
 .section-pic {
@@ -113,17 +119,17 @@ width: 100%;
   border: 5px solid white;
   margin-top: 13px;
   margin-left: 25px;
-padding: 10px;
+  padding: 10px;
 }
 
 #subtitle {
-background-color: rgba(255, 255, 255, 0.2);
-color: black;
-position: absolute;
-top: 44%;
-right: 2%;
-padding: 5px 22px;
-border-radius: 30px; 
+  background-color: rgba(255, 255, 255, 0.2);
+  color: black;
+  position: absolute;
+  top: 44%;
+  right: 2%;
+  padding: 5px 22px;
+  border-radius: 30px;
 }
 
 #subtitle :hover {
@@ -140,18 +146,19 @@ border-radius: 30px;
 .aboutmeLeft {
   border-right: 3px solid black;
   padding-right: 20px;
-  }
+}
 
 .me {
   text-align: right;
   font-size: 30px;
-  color: #3C530D;
-} 
+  color: #3c530d;
+}
 
 .aboutmeParagraph {
   text-align: left;
   padding-bottom: 20px;
-  font-family: "Work Sans", "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
+  font-family: "Work Sans", "Helvetica Neue", Helvetica, Helvetica, Arial,
+    sans-serif;
   font-weight: lighter;
   width: 80%;
 }
@@ -164,14 +171,14 @@ border-radius: 30px;
 }
 
 .workLeft {
-border-right: 3px solid black;
-padding-right: 30px;
+  border-right: 3px solid black;
+  padding-right: 30px;
 }
 
 .workTitle {
   text-align: right;
   font-size: 30px;
-  color: #3C530D;
+  color: #3c530d;
 }
 
 /* portfolio image container */
@@ -181,110 +188,113 @@ padding-right: 30px;
   gap: 1.4rem;
   margin-inline: auto;
   width: min(95%, 70rem);
-padding-left: 65px;
+  padding-left: 65px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 300px 300px 300px;
   grid-template-areas:
-  "music music"
-  "fashion food"
-  "beauty travel" 
-  ;
+    "music music"
+    "fashion food"
+    "beauty travel";
 }
 
- #music {
+#music {
   grid-area: music;
-} 
+}
 
 .imageLink {
   position: relative;
   display: block;
+  margin: 0;
+  padding: 0;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 
 .musicImage {
-max-width: 100%; 
-max-height: 100%;
-display: block;
-position: relative;
-top: 65px;
-} 
-
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  top: 20%;
+  /* height: auto; */
+}
 
 #fashion {
   grid-area: fashion;
 }
 
 .fashionImage {
-  max-width: 150%; 
+  max-width: 150%;
   max-height: 100%;
   display: block;
   position: relative;
   top: 0px;
   right: 90px;
-  } 
+}
 
 #food {
   grid-area: food;
 }
 
 .foodImage {
-  max-width: 150%; 
+  max-width: 150%;
   max-height: 100%;
   display: block;
   position: relative;
   top: 0px;
   right: 90px;
-  } 
-
+}
 
 #beauty {
   grid-area: beauty;
 }
 
 .beautyImage {
-  max-width: 150%; 
+  max-width: 150%;
   max-height: 100%;
   display: block;
   position: relative;
   top: 0px;
   right: 90px;
-  } 
+}
 
 #travel {
   grid-area: travel;
 }
 
 .travelImage {
-  max-width: 150%; 
+  max-width: 150%;
   max-height: 100%;
   display: block;
   position: relative;
   top: -15px;
   right: 90px;
-  } 
+}
 
 .imageSectionArea {
-  display: grid; 
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-margin: 5px;
-cursor: pointer;
-align-content: end;
-border: 3px solid black;
-    overflow: hidden;
-    position: relative; 
+  display: grid;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  align-content: end;
+  border: 3px solid black;
+  overflow: hidden;
+  position: relative;
 }
 
 .heading {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 15px;
   color: white;
   font-size: 18px;
   position: relative;
   bottom: 20px;
   width: 45%;
-  z-index: 1;  
-  position: absolute; 
+  z-index: 1;
+  position: absolute;
 }
 
 /* <!-- contact section --> */
@@ -296,53 +306,52 @@ border: 3px solid black;
 
 .contactMe {
   border-right: 3px solid black;
-  color: #3C530D;
+  color: #3c530d;
   text-align: right;
   padding-right: 16px;
-  }
+}
 
 .info {
   display: flex;
   list-style: none;
- justify-content: space-around;
+  justify-content: space-around;
   width: 50vw;
   align-items: center;
   margin-inline: auto;
 }
 
-.info1, .info2, .info3, .info4, .info5 {
-border-bottom: 3px solid;
+.info1,
+.info2,
+.info3,
+.info4,
+.info5 {
+  border-bottom: 3px solid;
 }
-
-
 @media only screen and (max-width: 1440px) {
-
   #subtitle {
     position: absolute;
     top: 43%;
-    }
-
-    .section-pic {
-      width: 320px;
-      height: 325px;
-      margin-top: 70px;
-      margin-left: 42px;
-    }
   }
 
-@media only screen and (max-width: 1024px) {
+  .section-pic {
+    width: 320px;
+    height: 325px;
+    margin-top: 70px;
+    margin-left: 42px;
+  }
+}
 
+@media only screen and (max-width: 1024px) {
   html {
     font-size: 15px;
   }
-
 
   .main {
     max-width: 90%;
   }
 
   #hero-banner {
-  display: grid;
+    display: grid;
     height: 35vh;
   }
 
@@ -351,71 +360,67 @@ border-bottom: 3px solid;
     height: 235px;
     margin-top: 32px;
     margin-left: 185px;
-}
+  }
 
-#subtitle {
-  top: 38%;
-  right: 6%;
+  #subtitle {
+    top: 38%;
+    right: 6%;
+  }
 
-.aboutmeParagraph {
-  padding-bottom: 20px;
-  width: 78%;
-}
+  .aboutmeParagraph {
+    padding-bottom: 20px;
+    width: 78%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-
- .container {
-font-size: 11px;
+  .container {
+    font-size: 11px;
   }
-
 
   html {
     font-size: 12px;
-  } 
+  }
 
   #subtitle {
-    top: 42%;
-    }
- 
+    top: 41%;
+  }
+
   .main {
     max-width: 600px;
-  } 
+  }
 
-  .section-pic { 
+  .section-pic {
     width: 220px;
     height: 225px;
     margin-top: 8px;
     margin-left: 30px;
-}
+  }
 
-.imagesSection {
-padding-left: 26px;
-}
+  .imagesSection {
+    padding-left: 26px;
+  }
 
-.fashionImage {
-  max-width: 250%; 
-  max-height: 270%;
-  display: block;
-  position: relative;
-  top: 0px;
-right: 145px;
-  } 
+  .fashionImage {
+    max-width: 250%;
+    max-height: 270%;
+    display: block;
+    position: relative;
+    top: 0px;
+    right: 145px;
+  }
 
-.info { 
-display: flex;
-flex-wrap: wrap;
-font-size: 14px;
-padding-left: 26px;
-}
+  .info {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    padding-left: 26px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-
-
   html {
     font-size: 9px;
-
   }
 
   .container {
@@ -424,76 +429,79 @@ padding-left: 26px;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-      }
+  }
 
-      #subtitle {
-        top: 47%;
-left: 48%;
-        }
+  #subtitle {
+    top: 47%;
+    left: 48%;
+  }
 
   .imagesSection {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 1fr);
     grid-template-areas:
-    "music"
-    "fashion"
-    "food"
-    "beauty" 
-    "travel" 
-    ;
+      "music"
+      "fashion"
+      "food"
+      "beauty"
+      "travel";
   }
 
   .aboutmeParagraph {
-padding-left: 7%;
-padding-right: 9%;
+    padding-left: 7%;
+    padding-right: 9%;
   }
 
   .imagesSection {
     padding-left: 17px;
     padding-right: 19px;
-    }
+  }
 
-    .musicImage {
-      max-width: 370%; 
-      max-height: 470%;
-      top: -5px;
-      right: 380px;
-      } 
+  .musicImage {
+    max-width: 370%;
+    max-height: 470%;
+    top: -5px;
+    right: 380px;
+  }
 
-      .fashionImage {
-        object-fit: fill;
-        max-width: 340%; 
-        max-height: 380%;
-        top: -2px;
-      right: 380px;
-        } 
+  .fashionImage {
+    object-fit: fill;
+    max-width: 340%;
+    max-height: 380%;
+    top: -2px;
+    right: 380px;
+  }
 
-        .foodImage {
-          max-width: 320%; 
-          max-height: 320%;
-          top: -30px;
-          right: 90px;
-          } 
+  .foodImage {
+    max-width: 320%;
+    max-height: 320%;
+    top: -30px;
+    right: 480px;
+  }
 
-    .me {
-      padding-left: 9px;
-      font-size: 13.5px;
-    }
+  .beautyImage {
+    max-width: 300%;
+    max-height: 350%;
+    top: -10px;
+    right: 200px;
+  }
 
-    .workTitle {
-      padding-left: 5px;
-      font-size: 13.5px;
+  .me {
+    padding-left: 9px;
+    font-size: 13.5px;
+  }
 
-    }
+  .workTitle {
+    padding-left: 5px;
+    font-size: 13.5px;
+  }
 
-    .contactMe {
-padding-left: 3px;
-    }
+  .contactMe {
+    padding-left: 3px;
+  }
 
   .info {
     flex-wrap: wrap;
     padding-right: 37px;
   }
-
-  
 }
