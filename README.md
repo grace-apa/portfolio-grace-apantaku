@@ -43,4 +43,6 @@ CSS3
 - Hyperlinked images for future projects
 - Fully responsive web page - all screens
 
-## How to contribute
+## Tests
+
+N/A
