@@ -495,29 +495,29 @@ nav ul li a:hover::after {
     width: 620%;
     height: auto;
     object-fit: cover;
-    /* position: static; */
     right: 125%;
+    top: 0px;
   }
 
   .fashionImage {
     object-fit: cover;
     width: 370%;
     height: auto;
-    top: -2px;
+    top: 0px;
     right: 380px;
   }
 
   .foodImage {
-    max-width: 320%;
-    max-height: 320%;
-    top: -30px;
+    max-width: 330%;
+    /* max-height: 450%; */
+    top: 0px;
     right: 480px;
   }
 
   .beautyImage {
     max-width: 300%;
     max-height: 350%;
-    top: -10px;
+    top: 0px;
     right: 200px;
   }
 
