@@ -206,9 +206,6 @@ nav ul li a:hover::after {
   display: block;
   margin: 0;
   padding: 0;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .musicImage {
@@ -535,7 +532,6 @@ nav ul li a:hover::after {
 
   .foodImage {
     max-width: 330%;
-    /* max-height: 450%; */
     top: 0px;
     right: 480px;
   }
