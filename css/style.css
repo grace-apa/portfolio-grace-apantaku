@@ -217,7 +217,6 @@ nav ul li a:hover::after {
   object-fit: cover;
   position: relative;
   top: 20%;
-  /* height: auto; */
 }
 
 #fashion {
@@ -371,6 +370,10 @@ nav ul li a:hover::after {
     padding-bottom: 20px;
     width: 78%;
   }
+
+  .contactMe {
+    padding-right: 20px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -383,7 +386,7 @@ nav ul li a:hover::after {
   }
 
   #subtitle {
-    top: 41%;
+    top: 40%;
   }
 
   .main {
@@ -401,6 +404,12 @@ nav ul li a:hover::after {
     padding-left: 26px;
   }
 
+  .musicImage {
+    max-width: 370%;
+    max-height: 470%;
+    top: 3px;
+  }
+
   .fashionImage {
     max-width: 250%;
     max-height: 270%;
@@ -408,6 +417,24 @@ nav ul li a:hover::after {
     position: relative;
     top: 0px;
     right: 145px;
+  }
+
+  .foodImage {
+    max-width: 250%;
+    max-height: 250%;
+    top: 20px;
+    right: 220px;
+  }
+
+  .travelImage {
+    max-width: 230%;
+    max-height: 230%;
+    top: -15px;
+    right: 100px;
+  }
+
+  .contactMe {
+    padding-right: 36px;
   }
 
   .info {
@@ -420,7 +447,7 @@ nav ul li a:hover::after {
 
 @media only screen and (max-width: 500px) {
   html {
-    font-size: 9px;
+    font-size: 8px;
   }
 
   .container {
@@ -436,9 +463,14 @@ nav ul li a:hover::after {
     left: 48%;
   }
 
+  .aboutmeParagraph {
+    padding-left: 7%;
+    padding-right: 9%;
+  }
+
   .imagesSection {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: auto;
     grid-template-areas:
       "music"
       "fashion"
@@ -447,27 +479,30 @@ nav ul li a:hover::after {
       "travel";
   }
 
-  .aboutmeParagraph {
-    padding-left: 7%;
-    padding-right: 9%;
-  }
-
   .imagesSection {
     padding-left: 17px;
     padding-right: 19px;
   }
 
+  .imageSectionArea {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 5px 0;
+  }
+
   .musicImage {
-    max-width: 370%;
-    max-height: 470%;
-    top: -5px;
-    right: 380px;
+    width: 620%;
+    height: auto;
+    object-fit: cover;
+    /* position: static; */
+    right: 125%;
   }
 
   .fashionImage {
-    object-fit: fill;
-    max-width: 340%;
-    max-height: 380%;
+    object-fit: cover;
+    width: 370%;
+    height: auto;
     top: -2px;
     right: 380px;
   }
