@@ -4,23 +4,20 @@
 
 Features include:
 
+## Technologies used
+
+HTML
+CSS
+
 ## Installation
 
 N/A
 
 ## Usage
 
-## Credits
+## Screenshot
 
-Inspiration for code for 'Hover feature for navigation links":
-
-Code source for "css gradient found in the hero banner": https://cssgradient.io/
-
-Credit for font: official Behance logo font https://www.behance.net/
-
-Images from:
-
-https://www.voguebusiness.com/fashion/hyperrealism-in-fashion-a-new-frontier-for-luxury
+![alt text](./images/1700942780256.png)
 
 ## License
 
@@ -39,7 +36,3 @@ Navigation bar
 Images with hyperlinks for future projects
 
 ## How to contribute
-
-## Tests
-
-N/a
