@@ -29,7 +29,7 @@ N/A
 
 MIT License
 
-## Bagdes
+## Badges
 
 HTML5
 
