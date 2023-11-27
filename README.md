@@ -10,6 +10,10 @@ My professional web development portfolio featuring the below:
 - A 'Portfolio' section showcasing five example projects. This section includes titled images of different sizes - with the first image being larger than the rest.
 - Lastly there is an easy-to-find 'Contact Me' section with Facebook, LinkedIn, GitHub, Twitter.
 
+Deployed application here:
+
+https://grace-apa.github.io/portfolio-grace-apantaku/
+
 ## Technologies used
 
 HTML  
